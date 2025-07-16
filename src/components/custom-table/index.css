@@ -1,0 +1,131 @@
+tr:nth-child(even) {
+  background: rgba(196, 196, 196, 0.12);
+}
+.component thead tr th {
+  background-color: #e0f0f8 !important;
+  text-transform: capitalize;
+  color: #047bba !important;
+  font-size: 14px;
+  font-weight: 600 !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+
+.component table thead th:first-child {
+  border-top-left-radius: 10px;
+}
+
+.component table thead th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.table-responsive {
+  height: 70vh !important;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid #00000033 !important;
+  border-top: none !important;
+  background: #fff;
+  border-radius: 10px;
+}
+.table-responsive-2 {
+  border: 1px solid #edf0f4 !important;
+  background: #fff;
+  min-height: 517px;
+  max-height: 600px;
+}
+.table-responsive td,
+.table-responsive-2 td {
+  padding-left: 15px !important;
+  color: #050e21;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+  height: 40px;
+  vertical-align: middle;
+}
+.table-responsive td,
+.table-responsive th,
+.table-responsive-2 td,
+.table-responsive-2 th {
+  border: none !important;
+}
+.table-responsive tr,
+.table-responsive-2 tr {
+  border: 1px solid #edf0f4 !important;
+}
+.not_found h2 {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.No_Records_Ctrl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.No_Records_icon {
+  width: 4rem;
+  height: 4rem;
+}
+.table-bordered {
+  margin: 0px;
+}
+
+.component table tr {
+  height: 6.34vh !important;
+  color: bisque;
+}
+
+
+.border-none {
+  border: 0px solid !important;
+}
+
+.filter-space-box {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.input_search-class {
+  width: 60% !important;
+}
+
+.table-responsive thead {
+  position: sticky;
+  top: -1px;
+  z-index: 0;
+}
+
+.add-icon-btn {
+  position: relative;
+  top: -1px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.table-button {
+  padding: 5px 24px 8px 24px !important ;
+}
+
+.scrollable-tbody tr:hover {
+  background-color: #fbfbfb !important;
+}
+
+@media (max-width: 1280px) {
+  .responsive-media {
+    width: 120%;
+  }
+}
+
+.tr-hover {
+  transition: background-color 0.3s ease; /* Optional: for smooth transition */
+}
+
+.tr-hover:hover {
+  background-color: #f5f5f5; /* Change to the color you want on hover */
+}
